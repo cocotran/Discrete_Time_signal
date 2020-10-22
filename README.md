@@ -1,3 +1,3 @@
 # Discrete Time signal
 
-(Matplotlib)[https://matplotlib.org/index.html]
+[Matplotlib](https://matplotlib.org/index.html)
