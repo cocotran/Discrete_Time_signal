@@ -5,13 +5,17 @@
 # given an input signal x2[n], the output response produced is y2[n],
 # then for an input signal x3[n] = x1[n] + x2[n], the output response y3[n] = y1[n] + y2[n]
 
+from math import *
 import matplotlib.pyplot as plt
-
 
 # parameter: system function, input x1, input x2, interval from, interval to
 def linear(f, x1, x2, n_from: int, n_to: int):
+	# define n
     n = [i for i in range(n_from, n_to + 1)]
+
+    # define x1[n]
     x_1 = [x1(i) for i in n]
+    # define x2[n]
     x_2 = [x2(i) for i in n]
 
     # output response produced by input x1
