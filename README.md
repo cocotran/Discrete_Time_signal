@@ -7,11 +7,11 @@ flask run
 ```
 
 ## Properties
-* Signal
+* Signal<br/>
 Even & Odd<br/>
 Even & Odd Decomposition<br/>
 
-* System
+* System<br/>
 Linearity<br/>
 
 ## Ploting
