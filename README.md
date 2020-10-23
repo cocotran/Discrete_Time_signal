@@ -1,8 +1,9 @@
 # Discrete Time signal
 
 ## Usage 
+* To start local Flask server, in the root directory, run
 ```bash
-python3 app.py
+flask run
 ```
 
 ## Properties
