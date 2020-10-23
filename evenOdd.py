@@ -5,8 +5,8 @@
 # x[n] is EVEN is x[n] = x[-n]
 # x[n] is ODD if x[n] = -x[-n]
 
+# import matplotlib.pyplot as plt
 from math import *
-import matplotlib.pyplot as plt
 
 # parameter: signal function, interval from, interval to
 def even_odd(f, n_from: int, n_to: int):
@@ -29,10 +29,11 @@ def even_odd(f, n_from: int, n_to: int):
 		else:
 			isType = "Neither"
 
-	print(isType)
-	fig, axs = plt.subplots(ncols=2,nrows=1, constrained_layout=True, sharey=True)
-	axs[0].stem(n, x_1)
-	axs[0].set(xlabel='n', ylabel='x[n]')
-	axs[1].stem(n, x_2)
-	axs[1].set(xlabel='n', ylabel='x[-n]')
-	plt.show()
+	# fig, axs = plt.subplots(ncols=2,nrows=1, constrained_layout=True, sharey=True)
+	# axs[0].stem(n, x_1)
+	# axs[0].set(xlabel='n', ylabel='x[n]')
+	# axs[1].stem(n, x_2)
+	# axs[1].set(xlabel='n', ylabel='x[-n]')
+	# plt.show()
+	return [n, x_1, x_2]
+

@@ -6,7 +6,7 @@
 # then for an input signal x3[n] = x1[n] + x2[n], the output response y3[n] = y1[n] + y2[n]
 
 from math import *
-import matplotlib.pyplot as plt
+# import matplotlib.pyplot as plt
 
 # parameter: system function, input x1, input x2, interval from, interval to
 def linear(f, x1, x2, n_from: int, n_to: int):
@@ -46,13 +46,14 @@ def linear(f, x1, x2, n_from: int, n_to: int):
         print('System is not linear')
 
     # ploting stuffs
-    fig, axs = plt.subplots(ncols=2,
-                            nrows=1,
-                            constrained_layout=True,
-                            sharey=True)
-    axs[0].stem(n, y_1_2)
-    axs[0].set(xlabel='n', ylabel='Output responses', title='y1[n] + y2[n]')
-    axs[1].stem(n, y_3)
-    axs[1].set(xlabel='n', title='y3[n]')
-    fig.suptitle('Stem plots of the responses')
-    plt.show()
+    # fig, axs = plt.subplots(ncols=2,
+    #                         nrows=1,
+    #                         constrained_layout=True,
+    #                         sharey=True)
+    # axs[0].stem(n, y_1_2)
+    # axs[0].set(xlabel='n', ylabel='Output responses', title='y1[n] + y2[n]')
+    # axs[1].stem(n, y_3)
+    # axs[1].set(xlabel='n', title='y3[n]')
+    # fig.suptitle('Stem plots of the responses')
+    # plt.show()
+    return [n, y_1_2, y_3]
