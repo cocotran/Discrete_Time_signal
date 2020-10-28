@@ -1,15 +1,16 @@
 # Discrete Time signal
 
 ## Usage 
+* To start local Flask server, in the root directory, run
 ```bash
-python3 app.py
+flask run
 ```
 
 ## Properties
 * Signal<br/>
 Even & Odd<br/>
 Even & Odd Decomposition<br/>
-<br/>
+
 * System<br/>
 Linearity<br/>
 
