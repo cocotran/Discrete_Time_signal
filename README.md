@@ -6,10 +6,10 @@
 flask run
 ```
 
-## Properties
+## Demo
 * Signal<br/>
-Even & Odd<br/>
-Even & Odd Decomposition<br/>
+[Even & Odd](https://colculator.com/calculators?calculator=Even_and_Odd_Signals)<br/>
+[Even & Odd Decomposition](https://colculator.com/calculators?calculator=Even_and_Odd_Decomposition)<br/>
 
 * System<br/>
 Linearity<br/>
